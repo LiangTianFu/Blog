@@ -1,9 +1,10 @@
 /*文字动画效果*/
 .about { width: 90%; margin: 0 30px 30px; overflow: hidden; line-height: 22px; }
-.about h2 { font-size: 22px; margin-bottom: 20px; background: #2a7497; padding: 10px 0; width: 200px; text-align: center; border-radius: 0 30px 30px 0; box-shadow: #21566f 1px 1px 1px; border-left: #dae1e4 6px solid; }
-
-.about .about-list li strong { display: inline-block; width: 120px; height: 30px; line-height: 30px; background: rgba(50, 150, 250, 1); border-radius: 5px; margin: 5px 15px; transition: all 2s; text-align: center; font-size: 18px; padding: 8px 15px; }
+.about h2 { margin-bottom: 20px; background: #2a7497; padding: 10px 0; width: 200px; text-align: center; border-radius: 0 30px 30px 0; box-shadow: #21566f 1px 1px 1px; border-left: #dae1e4 6px solid; }
+/* 标题缩放过渡时间 */
+.about .about-list li strong { display: inline-block; width: 120px; height: 30px; line-height: 30px; background: rgba(50, 150, 250, 1); border-radius: 5px; margin: 5px 15px; transition: all 2s; text-align: center; font-size: 18px; padding: 5px 10px; }
+/* 标题缩放动画效果 */
 .about .about-list li strong:hover { transform: scale(0.9); background: #fff; color: rgba(50, 150, 250, 1); }
-.about .about-list a { display: block; line-height: 30px; margin:10px 20px; }
+.about .about-list a { display: block; margin:10px 20px; }
 .tooltip-box { display: block; background: #fff; line-height: 1.6; border: 1px solid #66ccff; color: #333; padding: 20px; font-size: 12px; border-radius: 5px; overflow: inherit; }
 #tooltip1,#tooltip2{color: orange;}
